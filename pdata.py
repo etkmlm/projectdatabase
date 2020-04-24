@@ -139,6 +139,5 @@ try:
             main(tablee)
 except KeyboardInterrupt:
     print("User Aborted :O")
-"""
 except:
-    print("An error occured, please try again.")"""
+    print("An error occured, please try again.")

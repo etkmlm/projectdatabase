@@ -31,7 +31,7 @@ def listSea(table, column, case):
     print(string)
     variables.conn = sqlite3.connect(variables.getname() + ".db")
     variables.cursor = variables.conn.cursor();
-    variables.cursor.execute("Select *from " + table + " where " + column + "='"+case+"'");
+    variables.cursor.execute("Select *from " + table + " where " + column + " like '%"+case+"%'");
     rows = variables.cursor.fetchall();
     for row in rows:
         print(row)
