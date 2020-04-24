@@ -6,7 +6,7 @@ Features:
 - Changeable database file (.db)
 - Light data management
 - Add/Delete/Update/List/Search commands
-- Only 20 KB
+- Only 10 KB
 
 Caution:
 This program running Python version 3, run with "python3 pdata.py" command.
